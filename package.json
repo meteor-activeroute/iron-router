@@ -1,0 +1,23 @@
+{
+  "name": "active-route-iron-router",
+  "version": "0.0.1",
+  "description": "Iron-Router adapter for active-route",
+  "main": "package.js",
+  "devDependencies": {
+    "eslint": "^2.11.1",
+    "eslint-config-airbnb": "^9.0.1",
+    "eslint-plugin-import": "^1.8.1",
+    "eslint-plugin-meteor": "^3.6.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/meteor-activeroute/iron-router.git"
+  },
+  "author": "Simon Fridlund",
+  "license": "MIT",
+  "private": true,
+  "bugs": {
+    "url": "https://github.com/meteor-activeroute/iron-router/issues"
+  },
+  "homepage": "https://github.com/meteor-activeroute/iron-router"
+}

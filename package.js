@@ -1,0 +1,18 @@
+Package.describe({
+  documentation: 'README.md',
+  git: 'https://github.com/meteor-activeroute/iron-router.git',
+  name: 'meteor-active-route-iron-router',
+  summary: 'Iron-Router adapter for active-route.',
+  version: '0.0.1',
+});
+
+Package.onUse(function onUse(api) {
+  api.versionsFrom('1.3.2.4');
+
+  api.use('ecmascript');
+
+  api.use([
+    'activeroute:core@0.0.1',
+    'iron:router@1.0.12',
+  ]);
+});
