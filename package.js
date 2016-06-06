@@ -15,4 +15,7 @@ Package.onUse(function onUse(api) {
     'activeroute:core@0.0.1',
     'iron:router@1.0.12',
   ]);
+
+  api.mainModule('client/activeroute-ironrouter.js', 'client');
+  api.mainModule('server/activeroute-ironrouter.js', 'server');
 });
