@@ -1,7 +1,7 @@
 Package.describe({
   documentation: 'README.md',
   git: 'https://github.com/meteor-activeroute/iron-router.git',
-  name: 'meteor-active-route-iron-router',
+  name: 'activeroute:iron-router',
   summary: 'Iron-Router adapter for active-route.',
   version: '0.0.1',
 });
