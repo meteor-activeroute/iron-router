@@ -13,7 +13,7 @@ Package.onUse(function onUse(api) {
   api.use('ecmascript');
 
   api.use([
-    'activeroute:core@0.0.1',
+    'activeroute:core@0.1.0',
     'iron:router@1.0.12',
   ]);
 
