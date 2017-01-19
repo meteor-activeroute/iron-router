@@ -8,7 +8,7 @@ Package.describe({
 });
 
 Package.onUse(function onUse(api) {
-  api.versionsFrom('1.3.2.4');
+  api.versionsFrom('1.4.2.2');
 
   api.use('ecmascript');
 
@@ -17,6 +17,6 @@ Package.onUse(function onUse(api) {
     'iron:router@1.0.12',
   ]);
 
-  api.mainModule('client/activeroute-ironrouter.js', 'client');
-  api.mainModule('server/activeroute-ironrouter.js', 'server');
+  api.mainModule('client/activeroute-iron-router.js', 'client', { lazy: true });
+  api.mainModule('server/activeroute-iron-router.js', 'server', { lazy: true });
 });
