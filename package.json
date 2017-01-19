@@ -19,15 +19,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/meteor-activeroute/iron-router.git"
+    "url": "git+https://github.com/meteor-activeroute/iron-router.git"
   },
-  "author": "Simon Fridlund",
+  "author": "Simon Fridlund <simon@fridlund.email>",
   "license": "MIT",
   "private": true,
   "bugs": {
     "url": "https://github.com/meteor-activeroute/iron-router/issues"
   },
-  "homepage": "https://github.com/meteor-activeroute/iron-router"
+  "homepage": "https://github.com/meteor-activeroute/iron-router",
   "scripts": {
     "lint": "eslint ."
   }
