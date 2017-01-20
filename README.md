@@ -1,4 +1,4 @@
-# ACTIVEROUTE:IRON-ROUTER
+# activeroute:iron-router
 
 This is the iron:router adapter for activeroute.
 
