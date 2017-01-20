@@ -1,7 +1,7 @@
 {
   "name": "meteor-activeroute-iron-router",
   "version": "0.1.0",
-  "description": "Iron-Router adapter for Active-Route",
+  "description": "iron:router adapter for activeroute:core",
   "main": "package.js",
   "devDependencies": {
     "babel-eslint": "^7.1.1",

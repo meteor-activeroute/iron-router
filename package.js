@@ -1,9 +1,9 @@
 // @flow
 Package.describe({
   documentation: 'README.md',
-  git: 'https://github.com/meteor-activeroute/iron-router.git',
+  git: 'git+https://github.com/meteor-activeroute/iron-router.git',
   name: 'activeroute:iron-router',
-  summary: 'Iron-Router adapter for active-route.',
+  summary: 'iron:router adapter for activeroute:core',
   version: '0.1.0',
 });
 
