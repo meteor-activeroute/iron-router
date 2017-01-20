@@ -12,10 +12,7 @@ Package.onUse(function onUse(api) {
 
   api.use('ecmascript');
 
-  api.use([
-    'activeroute:core@0.1.0',
-    'iron:router@1.0.12',
-  ]);
+  api.use('iron:router@1.0.12');
 
   api.mainModule('client/activeroute-iron-router.js', 'client', { lazy: true });
   api.mainModule('server/activeroute-iron-router.js', 'server', { lazy: true });
