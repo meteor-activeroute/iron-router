@@ -24,3 +24,5 @@ const activeRoute = new ActiveRoute({
 activeRoute.name('home');
 // return true/false
 ```
+
+[activeroute:core]: https://github.com/meteor-activeroute/core
