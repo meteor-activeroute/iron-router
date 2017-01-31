@@ -4,7 +4,7 @@ Package.describe({
   git: 'git+https://github.com/meteor-activeroute/iron-router.git',
   name: 'activeroute:iron-router',
   summary: 'iron:router adapter for activeroute:core',
-  version: '1.0.0-alpha.5',
+  version: '1.0.0-alpha.6',
 });
 
 Package.onUse(function onUse(api) {
